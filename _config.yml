@@ -24,11 +24,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Bernardo B Ribeiro"
+  name             : "Bernardo B. Ribeiro"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate in Economics, University of British Columbia"
-  location         : "Vancouver, BC, Canada"
-  employer         : ""
+  location         : # Text
+  employer         : # Text
   uri              : # URL
   email            : "bernardobarbozaribeiro@gmail.com" 
 
@@ -71,7 +71,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "bbribeiro_22"
+  twitter          : # Username
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
