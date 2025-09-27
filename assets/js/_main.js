@@ -2,6 +2,7 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
+/*
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
@@ -47,6 +48,17 @@ var toggleTheme = () => {
   setTheme(new_theme);
 };
 
+*/
+
+// Force light theme always
+let setTheme = () => {
+  $("html").removeAttr("data-theme");
+  $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+};
+
+// Run it immediately
+setTheme();
+
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
    ========================================================================== */
@@ -91,16 +103,16 @@ $(document).ready(function () {
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
   // If the user hasn't chosen a theme, follow the OS preference
-  setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
+  // setTheme();
+  // window.matchMedia('(prefers-color-scheme: dark)')
+  //      .addEventListener("change", (e) => {
+  //        if (!localStorage.getItem("theme")) {
+  //          setTheme(e.matches ? "dark" : "light");
+  //       }
+  //      });
 
   // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
+  //$('#theme-toggle').on('click', toggleTheme);
 
   // Enable the sticky footer
   var bumpIt = function () {
