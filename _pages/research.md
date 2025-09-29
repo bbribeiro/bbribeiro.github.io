@@ -18,5 +18,5 @@ author_profile: true
 
 
 ## Work in progress
-**Accessibility, City Size, and Economic Development** (with [Prottoy Akbar](https://www.prottoyamanakbar.com/), [Victor Couture](https://www.victorcouture.org/), [Gilles Duranton](https://real-faculty.wharton.upenn.edu/duranton/), and [Adam Storeygard](https://sites.google.com/site/adamstoreygard/))
+**Accessibility, city size, and economic development** (with [Prottoy Akbar](https://www.prottoyamanakbar.com/), [Victor Couture](https://www.victorcouture.org/), [Gilles Duranton](https://real-faculty.wharton.upenn.edu/duranton/), and [Adam Storeygard](https://sites.google.com/site/adamstoreygard/))
 
