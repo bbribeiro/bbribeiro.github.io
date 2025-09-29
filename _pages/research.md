@@ -22,7 +22,7 @@ author_profile: true
   Efficiency and equity of input subsidies: experimental evidence from Tanzania</a></strong> 
   (with <a href="https://sites.google.com/site/decrgxaviergine/home">Xavier Giné</a>, 
   <a href="https://www.dfc.gov/who-we-are/shreena-patel">Shreena Patel</a>, and 
-  <a href="https://www.theigc.org/people/ildirim-valley">Ildrim Valley</a>). 
+  <a href="https://www.theigc.org/people/ildirim-valley">Ildrim Valley</a>) 
   <em>American Journal of Agricultural Economics</em>, 2022.
 </p>
 
