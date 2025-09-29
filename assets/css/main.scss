@@ -48,3 +48,11 @@ h2 {
   padding-bottom: 0.25rem;
   margin-bottom: 0.5rem;
 }
+
+/* Tighten spacing around paper titles and abstracts */
+.paper-title { margin-bottom: 0; }
+.paper-title + details.abstract { margin-top: 0; }
+
+/* Keep “Abstract” snug with its text */
+details.abstract summary { font-style: normal; font-weight: 600; margin-bottom: 0; cursor: pointer; }
+details.abstract p { margin-top: 0; }
