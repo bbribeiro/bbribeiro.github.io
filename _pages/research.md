@@ -47,7 +47,7 @@ author_profile: true
 
 <!-- DR 1.3 -->
 <p class="paper-title">
-  <strong>Making job trainings work for the youth</strong>
+  <strong>Making job training work for the youth</strong>
   (with <a href="https://sites.google.com/site/decrgxaviergine/home">Xavier Giné</a>, 
   <a href="https://www.worldbank.org/en/about/people/a/alejandro-de-la-fuente">Alejandro de la Fuente</a>, 
   and Meritxell Martinez)
