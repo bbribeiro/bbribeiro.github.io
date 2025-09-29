@@ -7,12 +7,11 @@ author_profile: true
 
 ## Job Market Paper
 
-** Public housing and intergenerational mobility: evidence from Brazil**  
-with [Gabriel Leite Mariante](https://www.gleitemariante.com/home)
+**Public housing and intergenerational mobility: evidence from Brazil** (with [Gabriel Leite Mariante](https://www.gleitemariante.com/home))
 PDF | Slides
 
 <details class="abstract">
-<summary><em>Abstract</em></summary>
+<summary>Abstract</summary>
 <p>Short abstract goes here.</p>
 </details>
 
