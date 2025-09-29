@@ -48,23 +48,3 @@ h2 {
   padding-bottom: 0.25rem;
   margin-bottom: 0.5rem;
 }
-
-/* Control spacing around abstracts on the research page */
-
-/* Space between paper title (<p>) and the Abstract toggle */
-p + details.abstract {
-  margin-top: 0.05rem;   /* tighten or loosen as you like */
-}
-
-/* The "Abstract" label itself */
-details.abstract summary {
-  //font-style: normal;     /* not italic */
-  //font-weight: 600;       /* semi-bold */
-  margin-bottom: 0.05rem;       /* no gap below the word "Abstract" */
-  cursor: pointer;
-}
-
-/* The text inside the abstract */
-details.abstract p {
-  margin-top: 0.05rem;          /* collapse default top margin of <p> */
-}
