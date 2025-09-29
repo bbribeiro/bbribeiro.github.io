@@ -8,7 +8,7 @@ author_profile: true
 ## Job market paper
 
 <p class="paper-title"><strong>Public housing and intergenerational mobility: evidence from Brazil</strong> (with <a href="https://www.gleitemariante.com/home">Gabriel Leite Mariante</a>)</p>
-<details class="abstract">
+<details class="abstract" open>
   <summary>Abstract</summary>
   <p>Public housing is one of the most widespread urban policies, providing subsidized homes to low-income families in both developed and developing countries. While prior studies find that such programs generate only modest effects for adult beneficiaries, their long-term impacts on children remain poorly understood. We study one of the largest public housing initiatives in the world, implemented in Brazil, to examine effects across generations. Consistent with evidence from other contexts, we find that adult beneficiaries experience modest declines in employment. In contrast, their children see transformative gains. Those exposed to public housing at age 11 are 20 percent more likely to have a formal job at age 25 than those first exposed at age 18 or older. The effects are concentrated among families at the bottom of the income distribution and are explained by improved proximity to high quality schools following relocation. Our findings show that the location of public housing is critical for determining its impacts on both adults and children, and for shaping the overall effect of the policy on intergenerational mobility.</p>
 </details>
