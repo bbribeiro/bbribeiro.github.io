@@ -45,6 +45,16 @@ author_profile: true
   <a href="https://sites.google.com/site/adamstoreygard/">Adam Storeygard</a>)
 </p>
 
+<!-- DR 1.3 -->
+<p class="paper-title">
+  <strong>Making job trainings work for the youth</strong>
+  (with <a href="https://sites.google.com/site/decrgxaviergine/home">Xavier Giné</a>, 
+  <a href="https://www.worldbank.org/en/about/people/a/alejandro-de-la-fuente">Alejandro de la Fuente</a>, 
+  and Meritxell Martinez)
+</p>
+
+
+
 <!-- CREDIT CARD STATEMENTS -->
 <p class="paper-title">
   <strong>Standardization and simplification of credit card statements: evidence from a lab experiment</strong> 
