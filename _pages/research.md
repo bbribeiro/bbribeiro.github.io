@@ -14,7 +14,7 @@ author_profile: true
 </details>
 
 ## Publications
-**Efficiency and equity of input subsidies: experimental evidence from Tanzania** (with Xavier Finé, Shreena Patel, and Ildrim Valley). American Journal of Agricultural Economics 104(5): 1625–1655, 2022.
+**Efficiency and equity of input subsidies: experimental evidence from Tanzania** (with [Xavier Giné](https://sites.google.com/site/decrgxaviergine/home), [Shreena Patel](https://www.dfc.gov/who-we-are/shreena-patel), and [Ildrim Valley](https://www.theigc.org/people/ildirim-valley)). American Journal of Agricultural Economics 104(5): 1625–1655, 2022.
 <details class="abstract">
 <summary>Abstract | [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/ajae.12314)</summary>
 <p>Input subsidy programs (ISP) often have two conflicting targeting goals: selecting individuals with the highest marginal return to inputs on efficiency grounds, or the poorest individuals on equity grounds, allowing for a secondary market to restore efficiency gains. To study this targeting dilemma, we implement a field experiment where beneficiaries of an ISP were selected via a lottery or a local committee. In lottery villages, we find evidence of displacement of private fertilizer and of a secondary market as beneficiaries are more likely to sell inputs to non-beneficiaries. In contrast, in non-lottery villages we find no evidence of displacement nor of elite capture. The impacts of the ISP on agricultural productivity and welfare are limited, suggesting that resources should be directed at complementary investments, such as improving soil quality and irrigation.</p>
