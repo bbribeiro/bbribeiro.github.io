@@ -12,4 +12,4 @@ I am also a collaborator at the [Cities in Motion Lab](https://citiesinmotionlab
 
 Before joining UBC, I worked as a Research Assistant at the [Development Research Group](https://www.worldbank.org/en/about/unit/unit-dec/research) of the World Bank. I have a Master's and a Bachelor's degree in Economics from [PUC-Rio](https://www.econ.puc-rio.br/en).
 
-You can find my CV [here](https://bbribeiro.github.io/files/cv.pdf).
+You can find my CV [here](https://bbribeiro.github.io/files/cv_bbr.pdf).
