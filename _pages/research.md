@@ -35,6 +35,22 @@ author_profile: true
 
 
 ## Work in progress
-**Accessibility, city size, and economic development** (with [Prottoy Akbar](https://www.prottoyamanakbar.com/), [Victor Couture](https://www.victorcouture.org/), [Gilles Duranton](https://real-faculty.wharton.upenn.edu/duranton/), and [Adam Storeygard](https://sites.google.com/site/adamstoreygard/))
 
-**Standardization and simplification of credit card statements: evidence from a lab experiment** (with [Edgar G. Cortés](https://ecortesq.weebly.com/), Paúl A. de la Cruz, [Xavier Giné](https://sites.google.com/site/decrgxaviergine/home), Pedro Giovanni León-Nájera, and José Luis Negrin)
+<!-- ACCESSIBILITY PAPER -->
+<p class="paper-title">
+  <strong>Accessibility, city size, and economic development</strong> 
+  (with <a href="https://www.prottoyamanakbar.com/">Prottoy Akbar</a>, 
+  <a href="https://www.victorcouture.org/">Victor Couture</a>, 
+  <a href="https://real-faculty.wharton.upenn.edu/duranton/">Gilles Duranton</a>, and 
+  <a href="https://sites.google.com/site/adamstoreygard/">Adam Storeygard</a>)
+</p>
+
+<!-- CREDIT CARD STATEMENTS -->
+<p class="paper-title">
+  <strong>Standardization and simplification of credit card statements: evidence from a lab experiment</strong> 
+  (with <a href="https://ecortesq.weebly.com/">Edgar G. Cortés</a>, 
+  Paúl A. de la Cruz, 
+  <a href="https://sites.google.com/site/decrgxaviergine/home">Xavier Giné</a>, 
+  Pedro Giovanni León-Nájera, and José Luis Negrin)
+</p>
+
