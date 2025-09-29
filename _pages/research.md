@@ -13,6 +13,12 @@ author_profile: true
 <p>Short abstract goes here.</p>
 </details>
 
+<p class="paper-title"><strong>Public housing and intergenerational mobility: evidence from Brazil</strong> (with <a href="https://www.gleitemariante.com/home">Gabriel Leite Mariante</a>)</p>
+<details class="abstract">
+  <summary>Abstract</summary>
+  <p>Short abstract goes here.</p>
+</details>
+
 ## Publications
 [**Efficiency and equity of input subsidies: experimental evidence from Tanzania**]((https://onlinelibrary.wiley.com/doi/abs/10.1111/ajae.12314)) (with [Xavier Giné](https://sites.google.com/site/decrgxaviergine/home), [Shreena Patel](https://www.dfc.gov/who-we-are/shreena-patel), and [Ildrim Valley](https://www.theigc.org/people/ildirim-valley)). *American Journal of Agricultural Economics*, 2022.
 <details class="abstract">
