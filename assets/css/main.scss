@@ -50,7 +50,7 @@ h2 {
 }
 
 /* Tighten spacing around paper titles and abstracts */
-.paper-title { margin-bottom: 0; }
+.paper-title { margin-bottom: 0.25rem; }
 .paper-title + details.abstract { margin-top: 0; }
 
 /* Keep “Abstract” snug with its text */
