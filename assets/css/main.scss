@@ -50,8 +50,8 @@ h2 {
 }
 
 /* Tighten spacing around paper titles and abstracts */
-.paper-title { margin-bottom: 0.5rem; }
-.paper-title + details.abstract { margin-top: 0.5rem; }
+.paper-title { margin-bottom: 0.4rem; }
+.paper-title + details.abstract { margin-top: 0.4rem; }
 
 /* Keep “Abstract” snug with its text */
 details.abstract summary { font-style: normal; font-weight: 600; margin-bottom: 0; cursor: pointer; }
