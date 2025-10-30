@@ -7,10 +7,10 @@ author_profile: true
 
 ## Job market paper
 
-<p class="paper-title"><strong>Public housing and intergenerational mobility: evidence from Brazil</strong> (with <a href="https://www.gleitemariante.com/home">Gabriel Leite Mariante</a>)</p>
+<p class="paper-title"><strong>Subsidized housing and intergenerational mobility: evidence from Brazil</strong> (with <a href="https://www.gleitemariante.com/home">Gabriel Leite Mariante</a>)</p>
 <details class="abstract" open>
   <summary>Abstract</summary>
-  <p>Public housing is one of the most widespread urban policies in the world, providing subsidized homes to low-income families in both developed and developing countries. In this paper, we study a large-scale public housing program in Brazil and estimate its effects on both adults and children. We find that adult beneficiaries experience small declines in formal employment. Unlike in other settings, these effects are not driven by spatial isolation, but are instead consistent with modest income effects. In contrast, the impacts on children are large and transformative. Those first exposed to public housing at age 11 are 22 percent more likely to hold a formal job at age 25 than those first exposed at age 18 or older. These gains are concentrated among children from the poorest families and are driven by proximity to high-quality schools.</p>
+  <p>Housing assistance programs are among the most widely used policies to provide affordable housing to low-income families worldwide. In this paper, we study a large-scale subsidized housing program in Brazil and estimate its effects on individuals who received their homes as adults and those who were exposed as children. We find that adult beneficiaries experience small declines in formal employment. Unlike in other settings, these effects are not driven by spatial isolation, but are instead consistent with modest income effects. In contrast, the impacts on children are large and transformative. Those who receive subsidized housing at age 11 are 22 percent more likely to hold a formal job at age 25 than those who receive their homes at age 18 or older. These gains are concentrated among children of the poorest families and are driven by the proximity to high-quality schools.</p>
 </details>
 
 
