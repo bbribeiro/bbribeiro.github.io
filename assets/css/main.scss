@@ -181,6 +181,40 @@
      min-height: 1.5rem !important;      /* lower total height */
    }
 
+   /* Make the top bar shorter on mobile (Minimal Mistakes) */
+   .masthead,
+   .masthead__inner-wrap,
+   .greedy-nav {
+     padding-top: 0.25rem !important;
+     padding-bottom: 0.25rem !important;
+     min-height: auto !important;
+   }
+   
+   /* Shrink site title and remove extra vertical padding */
+   .greedy-nav .site-title,
+   .masthead__title,
+   .site-title,
+   .greedy-nav a {
+     font-size: 1rem !important;      /* tweak 0.95–1.1rem */
+     line-height: 1.2 !important;
+     padding-top: 0 !important;
+     padding-bottom: 0 !important;
+   }
+   
+   /* Compact the hamburger button area */
+   .greedy-nav__toggle {
+     padding: 0.25rem !important;
+     margin: 0 !important;
+   }
+   
+   /* If your header is sticky, normalize its spacing too */
+   .masthead--sticky .masthead__inner-wrap {
+     padding-top: 0.25rem !important;
+     padding-bottom: 0.25rem !important;
+     min-height: auto !important;
+   }
+
+
 }
 
 
