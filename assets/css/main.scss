@@ -169,6 +169,11 @@
     margin: 0 auto !important;
   }
 
+  .page__content,
+  .initial-content {
+    padding-top: 1rem !important;  /* less space above the author section */
+  }
+
 }
 
 
