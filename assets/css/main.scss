@@ -171,8 +171,15 @@
 
   .page__content,
   .initial-content {
-    padding-top: 1rem !important;  /* less space above the author section */
+    padding-top: 0.5rem !important;  /* less space above the author section */
   }
+
+   /* Make the top bar (masthead) shorter on mobile */
+   .masthead {
+     padding-top: 0.3rem !important;     /* reduce top padding */
+     padding-bottom: 0.3rem !important;  /* reduce bottom padding */
+     min-height: 2.5rem !important;      /* lower total height */
+   }
 
 }
 
