@@ -45,61 +45,116 @@
 /* Mobile author card: stack and center with larger avatar */
 @media screen and (max-width: 768px) {
 
-   /* --- Hard-center the avatar on mobile --- */
-   .page__sidebar,
-   .sidebar,
-   .sidebar .sticky {
-     padding-left: 0 !important;
-     padding-right: 0 !important;
-     margin-left: auto !important;
-     margin-right: auto !important;
-     text-align: center !important;
-   }
-   
-   /* Author wrapper fills width and stacks */
-   .page__sidebar .author,
-   .sidebar .author,
-   .author {
-     width: 100% !important;
-     display: flex !important;
-     flex-direction: column !important;
-     align-items: center !important;
-   }
-   
-   /* Avatar centered exactly */
-   .author__avatar {
-     display: flex !important;
-     justify-content: center !important;
-     align-items: center !important;
-     margin: 1rem auto 0.75rem !important;
-     padding: 0 !important;
-   }
-   .author__avatar img,
-   .author__avatar a img {
-     display: block !important;
-     margin: 0 auto !important;
-     width: 140px !important;   /* tweak 120–160 */
-     height: 140px !important;
-     border-radius: 50%;
-     object-fit: cover;
-   }
-   
-   /* Text + Follow stay centered under the photo */
-   .author__content {
-     clear: both !important;
-     text-align: center !important;
-     margin: 0 auto !important;
-     max-width: 28rem;
-   }
-   .author__urls-wrapper {
-     display: flex !important;
-     justify-content: center !important;
-     align-items: center !important;
-     margin-left: auto !important;
-     margin-right: auto !important;
-   }
+  /* --- Hard-center the avatar on mobile --- */
+  .page__sidebar,
+  .sidebar,
+  .sidebar .sticky {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
 
-   
+  /* Author wrapper fills width and stacks */
+  .page__sidebar .author,
+  .sidebar .author,
+  .author {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Avatar centered exactly */
+  .author__avatar {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 1rem auto 0.75rem !important;
+    padding: 0 !important;
+  }
+
+  .author__avatar img,
+  .author__avatar a img {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 140px !important;   /* tweak 120–160 */
+    height: 140px !important;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* Center the text block perfectly between photo and button */
+  .author__content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+
+    /* neutralize any left offsets from the theme */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    max-width: 28rem;
+  }
+
+  /* Ensure every line inside the author text is centered with no left nudge */
+  .author__content > * {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Catch common inner elements that sometimes keep their own margins */
+  .author__name,
+  .author__bio,
+  .author__bio p,
+  .author__bio ul,
+  .author__bio li {
+    text-align: center !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* Force full-width flex centering for stubborn layouts */
+  .author__content,
+  .author__content .author__bio {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  /* Reset any text or list indents that remain */
+  .author__bio p,
+  .author__bio li {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-align: center !important;
+    list-style-position: inside !important;
+  }
+
+  /* Center the Follow button and its dropdown */
+  .author__urls-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .author__urls {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
 }
 
 /* Headin 2 */
