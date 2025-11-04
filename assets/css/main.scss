@@ -167,6 +167,32 @@
     text-align: center !important;
     margin: 0 auto !important;
   }
+
+}
+
+/* Desktop reset (>=769px): ensure default two-column behavior */
+@media screen and (min-width: 769px) {
+  /* back to theme defaults */
+  .page__sidebar .author,
+  .sidebar .author {
+    display: block !important;
+    align-items: initial !important;
+    text-align: left !important;
+  }
+
+  .author__content {
+    display: block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .author__urls-wrapper {
+    display: block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 
