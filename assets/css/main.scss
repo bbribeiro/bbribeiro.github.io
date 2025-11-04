@@ -42,38 +42,64 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Fine-tune centering of author card and Follow button */
+/* ===== Mobile author card: stack + center + larger avatar ===== */
 @media screen and (max-width: 768px) {
-  /* center text perfectly under the photo */
-  .author__content {
-    text-align: center;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 90% !important;
-  }
-
-  /* center the Follow button and links dropdown */
-  .author__urls-wrapper {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  /* ensure the actual button sits centered */
-  .author__urls-wrapper button {
-    margin: 0 auto !important;
+  /* 1) Kill any float/flex-row that puts text beside the photo */
+  .page__sidebar .author,
+  .sidebar .author,
+  .author {
     display: block !important;
   }
 
-  /* center the dropdown list when opened */
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    float: none !important;
+  }
+
+  /* 2) Big centered photo on its own row */
+  .author__avatar {
+    display: block !important;
+    margin: 1rem auto 0.75rem !important;
+  }
+  .author__avatar img {
+    width: 140px !important;     /* tweak 120–160 to taste */
+    height: 140px !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* 3) Text starts below the photo, fully centered */
+  .author__content {
+    display: block !important;
+    clear: both !important;          /* guarantees it drops below the avatar */
+    margin: 0 auto !important;
+    text-align: center !important;
+    max-width: 28rem;
+    /* undo any left-offset the theme applies next to tiny avatars */
+    margin-left: 0 !important;
+  }
+  .author__content > * {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  /* 4) Center the Follow button and its dropdown */
+  .author__urls-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
   .author__urls {
     text-align: center !important;
     margin: 0 auto !important;
   }
 }
-
 
 /* Headin 2 */
 h2 {
