@@ -44,75 +44,62 @@
 
 /* Mobile author card: stack and center with larger avatar */
 @media screen and (max-width: 768px) {
-  /* remove sidebar padding that nudges content left */
-  .page__sidebar,
-  .sidebar {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
 
-  /* ensure author wrapper is a centered column */
-  .page__sidebar .author,
-  .sidebar .author,
-  .author {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-
-  /* cancel floats so text cannot sit beside the photo */
-  .author__avatar,
-  .author__content,
-  .author__urls-wrapper {
-    float: none !important;
-  }
-
-  /* big centered photo on its own row */
-  .author__avatar {
-    display: block !important;
-    margin: 1rem auto 0.75rem !important;
-    padding: 0 !important;
-  }
-  .author__avatar img,
-  .author__avatar a img {
-    width: 140px !important;   /* adjust 120–160 to taste */
-    height: 140px !important;
-    display: block !important;
-    margin: 0 auto !important;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+   /* --- Hard-center the avatar on mobile --- */
+   .page__sidebar,
+   .sidebar,
+   .sidebar .sticky {
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     text-align: center !important;
+   }
    
-   .author__avatar { max-width: fit-content; }
+   /* Author wrapper fills width and stacks */
+   .page__sidebar .author,
+   .sidebar .author,
+   .author {
+     width: 100% !important;
+     display: flex !important;
+     flex-direction: column !important;
+     align-items: center !important;
+   }
+   
+   /* Avatar centered exactly */
+   .author__avatar {
+     display: flex !important;
+     justify-content: center !important;
+     align-items: center !important;
+     margin: 1rem auto 0.75rem !important;
+     padding: 0 !important;
+   }
+   .author__avatar img,
+   .author__avatar a img {
+     display: block !important;
+     margin: 0 auto !important;
+     width: 140px !important;   /* tweak 120–160 */
+     height: 140px !important;
+     border-radius: 50%;
+     object-fit: cover;
+   }
+   
+   /* Text + Follow stay centered under the photo */
+   .author__content {
+     clear: both !important;
+     text-align: center !important;
+     margin: 0 auto !important;
+     max-width: 28rem;
+   }
+   .author__urls-wrapper {
+     display: flex !important;
+     justify-content: center !important;
+     align-items: center !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+   }
 
-  /* text starts below photo and is centered */
-  .author__content {
-    clear: both !important;
-    display: block !important;
-    text-align: center !important;
-    margin: 0 auto !important;
-    max-width: 28rem;
-  }
-  .author__content > * {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-  }
-
-  /* center the Follow button and its dropdown */
-  .author__urls-wrapper {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  .author__urls {
-    text-align: center !important;
-    margin: 0 auto !important;
-  }
+   
 }
 
 /* Headin 2 */
