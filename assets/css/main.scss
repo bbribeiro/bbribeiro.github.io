@@ -42,11 +42,35 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Re-scale sidebar */
+/* Mobile author card: make photo larger and avoid overlap */
 @media screen and (max-width: 768px) {
-  .author__bio, .author__avatar img, .author__urls-wrapper {
-    transform: scale(1.2);
-    transform-origin: top center;
+  /* Ensure the avatar isn’t floated on mobile */
+  .author__avatar {
+    float: none !important;
+    width: 140px !important;     /* adjust 120–160px to taste */
+    height: 140px !important;
+    margin: 1rem auto 0.75rem !important; /* center above the text */
+  }
+
+  /* Actually grow the image, not just scale text */
+  .author__avatar img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  /* Bump text a bit, but keep it from crowding the image */
+  .author__content {
+    font-size: 1.05rem !important;
+    line-height: 1.4 !important;
+    text-align: center;
+    margin-top: 0 !important;
+  }
+
+  .author__urls-wrapper {
+    font-size: 0.95rem !important;
+    text-align: center;
   }
 }
 
