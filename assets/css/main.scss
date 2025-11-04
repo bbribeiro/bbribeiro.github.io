@@ -79,7 +79,7 @@
   .author__avatar a img {
     display: block !important;
     margin: 0 auto !important;
-    width: 140px !important;   /* tweak 120–160 */
+    width: 140px !important;   /* tweak 120–160 if desired */
     height: 140px !important;
     border-radius: 50%;
     object-fit: cover;
@@ -111,8 +111,20 @@
     padding-right: 0 !important;
   }
 
-  /* Catch common inner elements that sometimes keep their own margins */
+  /* Force the name line to center exactly like the rest */
   .author__name,
+  .author__content h3,
+  .author__content .author__name {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Catch common inner elements that sometimes keep their own margins */
   .author__bio,
   .author__bio p,
   .author__bio ul,
@@ -156,6 +168,7 @@
     margin: 0 auto !important;
   }
 }
+
 
 /* Headin 2 */
 h2 {
