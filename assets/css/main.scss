@@ -42,43 +42,35 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Mobile author card: stack avatar above text and prevent overlap */
+/* Fine-tune centering of author card and Follow button */
 @media screen and (max-width: 768px) {
-  .author__avatar {
-    float: none !important;
-    position: static !important;
-    display: block !important;
-    width: 160px !important;          /* adjust 120–160 */
-    height: 160px !important;
-    margin: 1rem auto 0.75rem !important;
-  }
-
-  .author__avatar img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-  }
-
-  /* Make sure text begins on a new line below the avatar */
+  /* center text perfectly under the photo */
   .author__content {
-    clear: both !important;
-    display: block !important;
-    overflow: visible !important;
-    margin-top: 0 !important;
     text-align: center;
-    font-size: 1.05rem;
-    line-height: 1.45;
-    max-width: 28rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 90% !important;
   }
 
-  /* Tighter spacing between lines inside the bio */
-  .author__content > * {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+  /* center the Follow button and links dropdown */
+  .author__urls-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* ensure the actual button sits centered */
+  .author__urls-wrapper button {
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  /* center the dropdown list when opened */
+  .author__urls {
+    text-align: center !important;
+    margin: 0 auto !important;
   }
 }
 
