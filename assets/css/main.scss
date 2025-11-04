@@ -42,37 +42,46 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Mobile author card: make photo larger and avoid overlap */
+/* Mobile author card: stack avatar above text and prevent overlap */
 @media screen and (max-width: 768px) {
-  /* Ensure the avatar isn’t floated on mobile */
   .author__avatar {
     float: none !important;
-    width: 140px !important;     /* adjust 120–160px to taste */
-    height: 140px !important;
-    margin: 1rem auto 0.75rem !important; /* center above the text */
+    position: static !important;
+    display: block !important;
+    width: 160px !important;          /* adjust 120–160 */
+    height: 160px !important;
+    margin: 1rem auto 0.75rem !important;
   }
 
-  /* Actually grow the image, not just scale text */
   .author__avatar img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover;
     border-radius: 50%;
+    display: block;
   }
 
-  /* Bump text a bit, but keep it from crowding the image */
+  /* Make sure text begins on a new line below the avatar */
   .author__content {
-    font-size: 1.05rem !important;
-    line-height: 1.4 !important;
-    text-align: center;
+    clear: both !important;
+    display: block !important;
+    overflow: visible !important;
     margin-top: 0 !important;
+    text-align: center;
+    font-size: 1.05rem;
+    line-height: 1.45;
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .author__urls-wrapper {
-    font-size: 0.95rem !important;
-    text-align: center;
+  /* Tighter spacing between lines inside the bio */
+  .author__content > * {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
   }
 }
+
 
 /* Headin 2 */
 h2 {
