@@ -84,6 +84,8 @@
     border-radius: 50%;
     object-fit: cover;
   }
+   
+   .author__avatar { max-width: fit-content; }
 
   /* text starts below photo and is centered */
   .author__content {
